@@ -16,7 +16,7 @@ namespace Assignment0.Appliances
         private long _itemNumber;
         private string _brand;
         private int _quantity;
-        private decimal _wattage;
+        private double _wattage;
         private string _color;
         private decimal _price;
 
@@ -35,7 +35,7 @@ namespace Assignment0.Appliances
             get { return _quantity; }
         }
 
-        public decimal Wattage
+        public double Wattage
         {
             get { return _wattage; }
         }
@@ -69,7 +69,7 @@ namespace Assignment0.Appliances
         }
 
 
-        public Appliance(long itemNumber, string brand, int quantity, decimal wattage, string color, decimal price)
+        public Appliance(long itemNumber, string brand, int quantity, double wattage, string color, decimal price)
         {
             _itemNumber = itemNumber;
             _brand = brand;
