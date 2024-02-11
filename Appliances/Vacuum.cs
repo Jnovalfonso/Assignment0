@@ -28,8 +28,8 @@ internal class Vacuum : Appliance
                $"Wattage: {Wattage}\n" +
                $"Color: {Color}\n" +
                $"Price: {Price}\n" +
-               $"Feature: {_grade}\n" +
-               $"Sound Rating: {_batteryVoltage}\n";
+               $"Grade: {_grade}\n" +
+               $"Battery Voltage: {_batteryVoltage}\n";
     }
 
 
