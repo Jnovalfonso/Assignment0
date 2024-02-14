@@ -1,4 +1,4 @@
-namespace Assignment0.Appliances
+namespace ModernAppliances.Appliances
 {
 
     public abstract class Appliance
@@ -13,12 +13,12 @@ namespace Assignment0.Appliances
             Dishwasher = 4
         }
 
-        private long _itemNumber;
-        private string _brand;
-        private int _quantity;
-        private double _wattage;
-        private string _color;
-        private decimal _price;
+        protected long _itemNumber;
+        protected string _brand;
+        protected int _quantity;
+        protected double _wattage;
+        protected string _color;
+        protected decimal _price;
 
         public long ItemNumber
         {
